@@ -6,16 +6,17 @@ In this exercise, you'll create a Python class called `CarManager` to manage a c
 
 Create a class named `CarManager` with the following attributes:
 
-- `all_cars` (class attribute): A list that will store all the car instances created.
+- `all_cars` (class attribute): A list/dictionary that will store all the car instances created.
 - `total_cars` (class attribute): An integer that will keep track of the total number of cars.
 
 Implement the constructor `__init__` method to initialize the instance attributes:
 
-- `make` (instance attribute): A string representing the make of the car.
-- `model` (instance attribute): A string representing the model of the car.
-- `year` (instance attribute): An integer representing the manufacturing year of the car.
-- `mileage` (instance attribute): An integer representing the vehicles total mileage
-- `services` (instance attribute): A list that will store the services done to the car.
+- `_id` (instance attribute): An integer that should never be repeated and only rise with each car instance
+- `_make` (instance attribute): A string representing the make of the car.
+- `_model` (instance attribute): A string representing the model of the car.
+- `_year` (instance attribute): An integer representing the manufacturing year of the car.
+- `_mileage` (instance attribute): An integer representing the vehicles total mileage
+- `_services` (instance attribute): A list that will store the services done to the car.
 
 ## Step 1: Terminal Application
 
